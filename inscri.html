@@ -2,22 +2,24 @@
      <head>
         <link rel="stylesheet" href="inscri.css"/>
         <title>INSCRIPTOIN WEB</title>
+        <script defer src="inscrii.js"></script>
      </head>
    <body>
       <form></form>
         <fieldset>
            <legend>INSCRIPTOIN</legend>
+           <h4 id="PH"></h4>
            <table>
-        <tr><td><label>Nom</label><span style="color:red;">*</span></td>
+        <tr><td><label>Nom</label><span >*</span></td>
         <td><input type="text" name="Nom"></td></tr>&emsp;
 
-        <tr><td><label>Prénom</label><span style="color:red;">*</span></td>
+        <tr><td><label>Prénom</label><span >*</span></td>
         <td><input type="text" name="Prénome"></td></tr>
 
-        <tr><td><label>code postal</label><span style="color:red;">*</span></td>
+        <tr><td><label>code postal</label><span>*</span></td>
         <td><input type="code" name="Code postal"></td></tr>
 
-        <tr><td><label>Pays</label><span style="color:red;">*</span></td>
+        <tr><td><label>Pays</label><span>*</span></td>
          <td><select name="pays" id="Pays">
            <option value="">--Please select an option--</option>
            <option value="Maroc">maroc</option>
@@ -29,26 +31,27 @@
         </select></td></tr>
 
         <tr>
-         <td><label>Genre</label><span style="color:red;">*</span></td>
+         <td><label>Genre</label><span >*</span></td>
          <td><input type="Radio" name="genre"><label>Masculin</label>
              <input type="Radio" name="genre"><label>Féminin</label></td></tr>
 
-        <tr><td><label>Préférence de contact </label><span style="color:red;">*</span></td>
+        <tr><td><label>Préférence de contact </label><span >*</span></td>
         <td><label>Fax</label><input type="checkbox">
         <label>Email</label>
         <input type="checkbox">
         <label>Telephone</label>
         <input type="checkbox"></td></tr>
-        <tr><td><label>Email</label><span style="color:red;">*</span></td>
+        <tr><td><label>Email</label><span >*</span></td>
         <td><input type="email" name="Email"></td></tr>
 
-        <td><label>Password(6-8 characters)</label><span style="color:red">*</span></td>
+        <td><label>Password(6-8 characters)</label><span >*</span></td>
         <td><input type="password" name="Password(6-8 characters)" required></td></tr>
 
-        <tr><td><label>Vérifécation password</label><span style="color:red;">*</span></td>&emsp;
+        <tr><td><label>Vérifécation password</label><span >*</span></td>&emsp;
         <td><input type="password" name="véréfication password" required></td></tr>
         <td><button type="button">Envoyer</button></td>
         <td><button type="button">Effacer</button></td>
+        <p id="yr">yrs</p>  
 
    </body>
 </html>
